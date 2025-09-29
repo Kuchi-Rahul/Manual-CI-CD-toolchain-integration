@@ -1,0 +1,17 @@
+# Nexus Repository Manager Configuration
+
+# Server URL
+nexus.url=http://<NEXUS_EC2_IP>:8081
+
+# Admin credentials
+nexus.admin.username=admin
+nexus.admin.password=<NEXUS_ADMIN_PASSWORD>
+
+# Repositories created
+nexus.repositories=\
+  maven-releases,\
+  maven-snapshots,\
+  npm-proxy,\
+  docker-hosted
+
+
